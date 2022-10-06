@@ -25,8 +25,8 @@ export const colors = getRandomTheme();
 export const random_theme_button = true;
 
 export const base_profile = {
-    first_name: "John",
-    last_name: "Doe",
+    first_name: "Ashley",
+    last_name: "Mendoza",
     subtitle: "Aspiring Software Developer",
     bio: ["Miami, FL", "Florida International University"],
     name() {
