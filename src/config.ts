@@ -35,7 +35,7 @@ export const base_profile = {
 };
 
 export const extended_profile = {
-    gender: "Male", // You can input any gender
+    gender: "Female", // You can input any gender
     username: "Cobra", // You can opt out my commenting either of these
 } as ExtendedProfile;
 
