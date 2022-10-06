@@ -1,17 +1,19 @@
-app = "attach"
+# fly.toml file generated for ashleymendoza on 2022-10-06T11:10:41-04:00
+
+app = "ashleymendoza"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
-
-[mounts]
-  source="stats_data"
-  destination="/app/data"
 
 [env]
 
 [experimental]
   allowed_public_ports = []
   auto_rollback = true
+
+[mounts]
+  destination = "/app/data"
+  source = "stats_data"
 
 [[services]]
   http_checks = []
