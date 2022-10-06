@@ -28,7 +28,7 @@ export const base_profile = {
     first_name: "Ashley",
     last_name: "Mendoza",
     subtitle: "Aspiring Software Developer",
-    bio: ["Miami, FL", "Florida International University"],
+    bio: ["Miami, FL", "Florida International University", "Majoring in MIS and Finance", "GPA 3.88"],
     name() {
         return this.first_name + " " + this.last_name;
     },
@@ -36,7 +36,7 @@ export const base_profile = {
 
 export const extended_profile = {
     gender: "Female", // You can input any gender
-    username: "Cobra", // You can opt out my commenting either of these
+    username: "ashley.0608", // You can opt out my commenting either of these
 } as ExtendedProfile;
 
 export const skillsList = [
@@ -71,11 +71,9 @@ export const skillsList = [
 There are no required links, but each link must have:
  - url: string;
  - title: string;
-
  They can optionally have:
  - icon: string;
  - content: string;
-
  If no icon is supplied, it will use a chain icon by default
  If no content is supplied, it will use the url by default
  */
@@ -98,29 +96,55 @@ const projects_linksList = [
 
 const experiences = [
     {
-        company: "Company X",
+        company: "FIU Division of Information Technology",
         meta: [
-            "Software Engineer Intern",
-            "Jun 2022 - Aug 2022",
-            "Space, Space",
+            "Student IT Computer Lab Assistant",
+            "March 2022 - Present",
+            "Miami, FL",
         ],
         desc: [
-            "Did many things to improve the company",
-            "Hired a private inspector",
-            "Became superman!",
+            "Provide technical support to the users of the Division of Information Technology Computing Labs.",
+            "Assist in the installation of computer systems, peripherals, and software applications.",
+            "Troubleshoot hardware and software malfunctions.",
         ],
     },
     {
-        company: "Company Y",
+        company: "Seniors R Us LLC",
         meta: [
-            "Software Engineer Intern",
-            "Jun 2021 - Aug 2021",
-            "Space, Space",
+            "Administrative Assistant",
+            "August 2020 - September 2021",
+            "Sunrise, FL",
         ],
         desc: [
-            "Did many things to improve the company",
-            "Hired a private inspector",
-            "Became superman!",
+            "Tracked expenses and documented records using Quickbooks and Microsoft Excel to improve financial flow.",
+            "Maintained the office database and filing system up to date.",
+            "Provided administrative support to ensure efficient operation of office.",
+        ],
+    },
+    {
+        company: "Kristi House",
+        meta: [
+            "Volunteer",
+            "June 2021 - August 2021",
+            "Miami, FL",
+        ],
+        desc: [
+            "Kept facility organized and well-maintained to best meet program needs.",
+            "Created a safe environment for children to feel more comfortable.",
+            "Assisted staff to ensure operations are running smoothly.",
+        ],
+    },
+    {
+        company: "Young at Art Children`s Museum",
+        meta: [
+            "Volunteer",
+            "June 2018 - July 2019",
+            "Davie, FL",
+        ],
+        desc: [
+            "Offered further details about the exhibits to educate visitors.",
+            "Exceeded customer satisfaction by finding creative solutions to problems.",
+            "Worked together with other volunteers and staff to keep museum operations in check.",
         ],
     },
 ] as Experience[];
@@ -139,20 +163,20 @@ const games_linksList = [
 
 const contactMe_linksList = [
     {
-        url: "https://www.linkedin.com/in/",
+        url: "https://www.linkedin.com/in/ashley-mendoza-100334239",
         icon: "/icons/linkedin.svg",
         title: "LinkedIn",
     },
     {
-        url: "https://github.com/",
+        url: "https://github.com/ashley0608",
         icon: "/icons/github.svg",
         title: "GitHub",
     },
     {
-        url: "mailto: someone@gmail.com",
+        url: "mailto: ashley.0608@icloud.com",
         title: "Email",
         icon: "/icons/email.svg",
-        content: "someone@gmail.com",
+        content: "ashley.0608@icloud.com",
     },
 ] as Link[];
 
