@@ -251,20 +251,20 @@ function fromParams(params: URLSearchParams) {
     const theme = params.get("theme");
     if (theme != null) {
         switch (decodeURIComponent(theme.toLowerCase())) {
-            case "pinkish":
-                return pinkish;
-            case "blueish":
-                return blueish;
-            case "ocean":
-                return ocean;
-            case "dracula":
-                return dracula;
+        //    case "pinkish":
+        //        return pinkish;
+        //    case "blueish":
+        //        return blueish;
+        //    case "ocean":
+        //        return ocean;
+        //    case "dracula":
+        //        return dracula;
             case "light_fire":
             case "light fire":
             case "lightfire":
                 return light_fire;
-            case "firery":
-                return firery;
+        //    case "firery":
+        //        return firery;
         }
     }
     return null;
