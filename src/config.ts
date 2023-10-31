@@ -16,7 +16,7 @@ Profile and banner are optional! Just replace the file in the public folder if y
    - Dimensions: 455 x 130 (it is resized automatically!)
 */
 export const images = {
-    profilePng: "/profile.png",
+    profilePng: "/profile1.png",
     bannerPng: "/banner.png",
 } as Images;
 
