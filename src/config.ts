@@ -63,8 +63,8 @@ There are no required links, but each link must have:
  */
 const projects_linksList = [
     {
-        url: "https://google.com",
-        title: "Portfolio",
+        url: "https://public.tableau.com/views/Spotify2023Streams/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link",
+        title: "Spotify 2023 Streams",
         content: "By default, content is the url (view next to continue)",
     },
     {
