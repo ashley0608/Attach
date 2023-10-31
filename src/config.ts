@@ -27,7 +27,7 @@ export const random_theme_button = true;
 export const base_profile = {
     first_name: "Ashley",
     last_name: "Mendoza",
-    subtitle: "Aspiring Software Developer",
+    subtitle: "Aspiring BI Developer",
     bio: ["Miami, FL", "Florida International University", "Majoring in MIS and Finance", "GPA 3.88"],
     name() {
         return this.first_name + " " + this.last_name;
@@ -41,28 +41,12 @@ export const extended_profile = {
 
 export const skillsList = [
     "Time management",
-    "Communication",
     "Adaptability",
     "Problem-solving",
-    "Teamwork",
-    "Creativity",
     "Leadership",
-    "Interpersonal skills",
-    "Work ethic",
     "Attention to detail",
     "Stress management",
     "Organization",
-    "Prioritizing",
-    "Planning",
-    "Goal setting",
-    "Verbal communication",
-    "Written communication",
-    "Presentation",
-    "Constructive feedback",
-    "Active listening",
-    "Self-management",
-    "Optimism",
-    "Calmness",
     "Analysis",
     "Self-motivation",
 ];
@@ -85,8 +69,8 @@ const projects_linksList = [
     },
     {
         url: "https://google.com",
-        title: "Todo App",
-        content: "but you can force content by specifying like this!",
+        title: "FIFA World Cup Goals Statistics",
+        content: "FIFA World Cup 2022 Winners",
     },
     {
         url: "https://google.com",
@@ -96,10 +80,23 @@ const projects_linksList = [
 
 const experiences = [
     {
+        company: "Accelya, US",
+        meta: [
+            "Business Intelligence Developer Intern",
+            "October 2022 - Present",
+            "Miami, FL",
+        ],
+        desc: [
+            "Leverage Microsoft SQL Server 2019 to support big data analytics (10 terabytes of data) and reporting needs.",
+            "Automate daily tasks by scripting SQL queries, stored procedures, and views in SSMS.",
+            "Develop and maintain reports for customers and internal teams on Tableau Desktop, Server and Online versions.",
+        ],
+    },
+    {
         company: "FIU Division of Information Technology",
         meta: [
             "Student IT Computer Lab Assistant",
-            "March 2022 - Present",
+            "March 2022 - October 2022",
             "Miami, FL",
         ],
         desc: [
@@ -163,7 +160,7 @@ const games_linksList = [
 
 const contactMe_linksList = [
     {
-        url: "https://www.linkedin.com/in/ashley-mendoza-100334239",
+        url: "https://www.linkedin.com/in/mendoza-ashley",
         icon: "/icons/linkedin.svg",
         title: "LinkedIn",
     },
@@ -173,10 +170,10 @@ const contactMe_linksList = [
         title: "GitHub",
     },
     {
-        url: "mailto: ashley.0608@icloud.com",
+        url: "mailto: ashleylmxndoza@gmail.com",
         title: "Email",
         icon: "/icons/email.svg",
-        content: "ashley.0608@icloud.com",
+        content: "ashleylmxndoza@gmail.com",
     },
 ] as Link[];
 
