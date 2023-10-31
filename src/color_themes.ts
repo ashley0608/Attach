@@ -244,7 +244,8 @@ const firery = {
     },
 };
 
-const themes = [pinkish, blueish, ocean, dracula, light_fire];
+const themes = [//pinkish, blueish, ocean, dracula, 
+    light_fire];
 const funky = [...themes, firery];
 
 function fromParams(params: URLSearchParams) {

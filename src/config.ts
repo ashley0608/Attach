@@ -27,7 +27,7 @@ export const random_theme_button = true;
 export const base_profile = {
     first_name: "Ashley",
     last_name: "Mendoza",
-    subtitle: "Aspiring BI Developer",
+    subtitle: "Aspiring Business Analyst",
     bio: ["Miami, FL", "Florida International University", "Majoring in MIS and Finance", "GPA 3.88"],
     name() {
         return this.first_name + " " + this.last_name;
@@ -45,7 +45,6 @@ export const skillsList = [
     "Problem-solving",
     "Leadership",
     "Attention to detail",
-    "Stress management",
     "Organization",
     "Analysis",
     "Self-motivation",
